@@ -1,0 +1,12 @@
+.game-wrapper{display:flex;justify-content:center;align-items:center;min-height:100vh;background:#000010;padding:16px;}
+.game-container{position:relative;display:inline-block;}
+.game-canvas{display:block;width:100%;max-width:360px;max-height:640px;border:2px solid #00ccff44;border-radius:8px;touch-action:none;cursor:none;}
+.game-overlay{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;background:rgba(0,0,16,0.85);border-radius:8px;gap:12px;padding:24px;}
+.game-title{font-family:monospace;font-size:42px;font-weight:bold;color:#00ccff;text-shadow:0 0 20px #00ccff;letter-spacing:6px;margin:0;animation:pulse 1.5s ease-in-out infinite;}
+.game-subtitle{font-family:monospace;color:#aaa;font-size:16px;margin:0;letter-spacing:2px;}
+.game-instructions{text-align:center;margin:8px 0;}
+.game-instructions p{font-family:monospace;color:#888;font-size:13px;margin:4px 0;}
+.score-display{font-family:monospace;font-size:24px;color:#ffdd44;margin:0;letter-spacing:2px;}
+.game-btn{background:transparent;border:2px solid #00ccff;color:#00ccff;font-family:monospace;font-size:20px;font-weight:bold;padding:12px 40px;letter-spacing:4px;cursor:pointer;margin-top:8px;transition:all 0.2s;border-radius:4px;}
+.game-btn:hover,.game-btn:active{background:#00ccff22;box-shadow:0 0 20px #00ccff66;}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.7}}
